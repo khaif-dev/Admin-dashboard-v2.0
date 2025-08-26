@@ -3,9 +3,211 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <title>Responsive css layout</title>
 </head>
 <body>
+<div class="container">
+  <!-- side navigation bar -->
+  <nav class="side-bar">
+    <!-- brand logo -->
+    <div class="brand">
+      <div class="logo">
+        <div class="logo1"></div>
+        <div class="logo2"></div>
+        <div class="logo3"></div>
+        <div class="logo4"></div>
+      </div>
+      <div class="brand-name">
+        <h2>Dashboard</h2>
+      </div>
+    </div>
+    <!-- user navigation -->
+    <ul class="user-nav">
+      <li><i class="fa-solid fa-house"></i> Home</li>
+      <li><i class="fa-solid fa-address-card"></i> Profile</li>
+      <li><i class="fa-solid fa-message"></i> Message</li>
+      <li><i class="fa-solid fa-clock"></i> History</li>
+      <li><i class="fa-solid fa-note-sticky"></i> Tasks</li>
+      <li><i class="fa-solid fa-users-line"></i> Communities</li>
+    </ul>
+    <!-- making resources nav -->
+    <ul class="resources">
+      <li><i class="fa-solid fa-gear"></i> Settings</li>
+      <li><i class="fa-solid fa-circle-question"></i> Support</li>
+      <li><i class="fa-solid fa-shield"></i> Privacy</li>
+    </ul>
+  </nav>
   
+  <!-- inner container -->
+  <section class="inner-container">
+    <!-- header -->
+    <header class="header">
+      <div class="row1">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search...">
+        </div>
+        <div class="notification">
+          <i class="fa-regular fa-bell fa-lg"></i>
+          <img src="./profile.png" alt="Profile picture">
+          <h2>Morgan Oakley</h2>
+          <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="profile">
+          <div class="image"><img src="./profile.png" alt="Profile picture"></div>
+          <div class="user">
+            <h4>Hi there,</h4>
+            <h3>Morgan Oakley (@morgan)</h3>
+          </div>
+        </div>
+        <ul class="cfa">
+          <li><button>New</button></li>
+          <li><button>Upload</button></li>
+          <li><button>Share</button></li>
+        </ul>
+      </div>
+    </header>
+    <!-- main section -->
+    <main class="main">
+      <!-- topics -->
+      <div class="topic">
+        <h1>Your Projects</h1>
+        <h1>Announcements</h1>
+      </div>
+      <!-- cards -->
+      <div class="cards">
+        <!-- project cards -->
+        <div class="prjs">
+          <div class="card">
+            <h2>Supper Cool Project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+            <div class="icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Less Cool Project</h2>
+            <p>consectetur adipisicing elit. Iure nam fugit at recusandae modi.
+              Id illum minima aliquam recusandae ipsum.
+            </p>
+            <div class="icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Impossible App</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+            <div class="icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Easy Peasy App</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+            <div class="icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Ad Blocker</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+            <div class="icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Money Maker</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+            <div class="icons">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-code-fork"></i>
+            </div>
+          </div>
+        </div>  
+        <!-- announcements -->
+        <div class="announcements">
+          <div class="Acard">
+            <h2>Site Maintenance</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+            <hr>
+            <h2>Community Share Day</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+            <hr>
+            <h2>Supper Cool Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Esse eveniet obcaecati rerum eaque neque voluptatibus?
+            </p>
+          </div>
+          <h2>Trending</h2>
+          <!-- Trending -->           
+          <ul class="trending">
+            <li>
+              <img src="./profile.png" alt="user profiles">
+               <div class="trend-text">
+                 <h1>@tegan</h1>
+                 <p>World Peace Builder</p>
+               </div>
+              </li>
+            <li>
+              <img src="./profile.png" alt="user profiles">
+              <div class="trend-text">
+                <h1>@morgan</h1>
+                <p>Super Cool Project</p>
+              </div>
+            </li>
+            <li>
+              <img src="./profile.png" alt="user profiles">
+              <div class="trend-text">
+                <h1>@kendall</h1>
+                <p>Life Changing App</p>
+              </div>
+              </li>
+            <li>
+              <img src="./profile.png" alt="user profiles">
+              <div class="trend-text">
+                <h1>@alex</h1>
+                <p>No Traffic Maker</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </section>
+  <footer>
+    <div></div>
+    <div></div>
+  </footer>
+</div>
 </body>
 </html>
